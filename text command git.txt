@@ -1,0 +1,14 @@
+For creating new repository>>
+
+echo "# Assignment-3-Ed-tech-Website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NuzhatMouli/Assignment-3-Ed-tech-Website.git
+git push -u origin main
+
+or push an existing repository from the command line>>
+git remote add origin https://github.com/NuzhatMouli/Assignment-3-Ed-tech-Website.git
+git branch -M main
+git push -u origin main
